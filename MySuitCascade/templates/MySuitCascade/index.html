@@ -1,0 +1,9 @@
+{% extends 'MySuitCascade/layout.html' %}
+
+{% block title %} DishMenu {% endblock %}
+
+{% block dishes %}
+    {% for meal in meals %}
+    <h5>{{meal.title}}</h5>
+    {% endfor %}
+{% endblock %}
