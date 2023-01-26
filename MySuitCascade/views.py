@@ -8,4 +8,4 @@ def first_suite(request):
 
 
 def groceries(request):
-    pass
+    return render(request, 'MySuitCascade/groserirslist.html')
